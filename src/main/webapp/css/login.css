@@ -1,0 +1,55 @@
+/*login css*/
+.content-wrap1{margin:0 auto;width:100%;height:999px;background:url(../img/login-bg.jpg) no-repeat center top;position:relative;}
+.log-wrap{width:400px;position:absolute;left:55%;top:10%;}
+
+.tab_switch li{width:199px;height:70px;border-bottom:1px solid #999;border-right:1px solid #999;color:#333;cursor:pointer;float:left;font:normal 18px/70px "Microsoft YaHei";background:url(../img/log-tab-bg.png) repeat 0 0; text-align:center;}
+.tab_switch li.current{height:71px;border-bottom:none;background:url(../img/log-bg.png) repeat 0 0;}
+.tab_switch li.last{width:200px;border-right:none;}
+.tab_switch li a{color:#333;}
+
+.login-submit{padding:20px;width:360px;background:url(../img/log-bg.png) repeat 0 0;}
+.login-submit .input-row{position:relative;}
+.login-submit p{margin-bottom:10px;width:360px;height:36px;position:relative;}
+.login-submit p.last{margin-bottom:0;}
+.login-submit input.lginput-txt{padding-left:10px;width:348px;height:34px;border:1px solid #ccc;line-height:34px;}
+.login-submit p label{color:#ccc;position:absolute;left:10px;top:8px;pointer-events:none;}
+.login-submit p.active label{color:#ccc;position:absolute;left:-999em;top:-999em;}
+.login-submit p.word-tip{margin:0 0 2px 0;height:32px;line-height:32px;}
+.login-submit p.log-btn{margin-bottom:0;height:40px;}
+
+/*提示信息*/
+.login-msg{width:123px;height:32px;border:1px solid #f27373;background:#fef5f5;font-size:14px;line-height:32px;position:absolute;left:378px;top:1px;}
+.login-msg .msg-bg{margin:9px 0 0 -11px;width:11px;height:14px;background:url(../img/login-msg.png) no-repeat left bottom;position:absolute;}
+.msg-tip i{margin:9px 5px 9px 10px; }
+.msg-tip .msg-con{font-size:14px;}
+.msg-number{width:137px;}
+
+.oth-log{padding:0 20px 5px;background:url(../img/log-bg.png) repeat 0 0;}
+.third-party{height:45px;border-top:1px solid #999;line-height:45px;}
+.oth-log  p.word-tip{height:46px;line-height:46px;border-top:1px solid #999;}
+.third-party span{float:left;}
+.third-party a{margin:14px  0 0 10px;background:url(../img/third-party.png) no-repeat 0 0;float:left;}
+.third-party a.qq{width:16px;height:18px;background-position:0 0;}
+.third-party a.weibo{width:22px;height:18px;background-position:0 -20px;}
+.third-party a.renren{width:28px;height:17px;background-position:0 -40px;}
+
+.log-wrap h1{padding:0 20px;height:58px;border-bottom:1px solid #999;background:url(../img/log-bg.png) repeat 0 0;font:normal 18px/58px "Microsoft YaHei";}
+/*家长注册提示信息*/
+.regist-con .invite-code{width:137px;}
+.regist-con .msg-mail{width:137px;}
+.regist-con .msg-pswd{width:235px;}
+
+.regist-con .relation-dropdown{margin-bottom:10px;width:360px;float:none;position:relative;z-index:110;}
+.regist-con .relation-dropdown .relation-sel{width:88px;height:34px;float:left;line-height:34px;}
+.relation-dropdown .relation-dropdown-btn{height:34px;}
+.relation-dropdown .relation-option{width:88px;top:36px;}
+.relation-dropdown .relation-option li {width:68px;padding:0 10px;height:35px;line-height:35px;text-align:left;}
+.regist-con .relation-dropdown .oth-relcon{margin:0 0 0 10px;_margin:0 0 0 10px;*margin:0 0 0 5px;width:260px;float:left;}
+.oth-relcon input{margin:0;padding:0 0 0 10px;width:248px;height:34px;border:1px solid #ccc;line-height:34px;}
+.oth-relcon label{*left:15px;}
+.login-wbtn{margin:0 10px 0 0;}
+
+.pswd-con{padding:15px 20px 20px;}
+.pswd-con .msg-mail{width:151px;}
+.pswd-con .msg-newpswd{width:295px;}
+.pswd-con p.back{_margin-top:22px;margin-top:22px;text-align:center;}

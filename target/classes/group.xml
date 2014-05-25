@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+  <datasources>
+    <ds name="idCenterDS"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://127.0.0.1:3306/idcenter"
+		username="MyAdmin"
+		password="123456"
+        maxActive=""
+        maxIdle=""
+        maxWait="" />
+
+      <ds name="errwe"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://127.0.0.1:3306/lms?useUnicode=true&amp;characterEncoding=UTF-8"
+        username="root"
+        password="1234QWERasdf"
+        maxActive="50"
+        maxIdle="50"
+        maxWait="5000" />
+  </datasources>
+  <groups>
+    <group name="g1" master="errwe" /> 
+  </groups>
+</root>

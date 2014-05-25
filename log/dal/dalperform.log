@@ -1,0 +1,15 @@
+2014-05-25 00:28:15  method: count region: get_books_page params: 0- time: 17
+2014-05-25 00:28:15  method: getList region: com.yswsoft.lms.core.model.Books size: 6 time: 25
+2014-05-25 01:03:48  method: count region: get_books_page params: 0- time: 37
+2014-05-25 01:03:48  method: getIdList region: get_books_page params: 0- time: 19 start :0 count :10
+ sql: select id from lms_sys_books where status= ?
+2014-05-25 01:10:45  method: getMapping region: get_adminusr_by_email size: 1 time: 644
+2014-05-25 01:10:45  method: get region: com.yswsoft.lms.core.model.AdminUsr params: 1 time: 42
+2014-05-25 01:10:45  method: get region: com.yswsoft.lms.core.model.AdminUsr params: 1 time: 44
+2014-05-25 01:13:20  method: count region: get_books_page params: 0- time: 17
+2014-05-25 01:14:22  method: getList region: com.yswsoft.lms.core.model.Books size: 6 time: 22
+2014-05-25 01:16:42  method: getIdList region: get_books_page params: 0- time: 16 start :0 count :10
+ sql: select id from lms_sys_books where status= ?
+2014-05-25 01:16:47  method: count region: get_books_page params: 0- time: 79
+2014-05-25 01:16:55  method: count region: get_books_page params: 0- time: 36
+2014-05-25 01:25:43  method: getList region: com.yswsoft.lms.core.model.Books size: 10 time: 34

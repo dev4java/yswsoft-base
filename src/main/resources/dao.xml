@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="GB2312"?>
+<dal>
+	<default>
+		<dbStrategy name=""
+			clazz="cc.luole.sns.dal.route.strategy.DefaultStrategy">
+			<pattern value="[0-9]$" group="g1" />
+		</dbStrategy>
+		<listenerClass className="" />
+		<idCenterDS ds="idCenterDS" />
+	</default>
+	<route>
+	<object name="com.yswsoft.lms.core.model.AdminUsr"
+			listenerClass="" strategyProperty="id">
+			<dbStrategy name="" clasz="cc.luole.sns.dal.route.strategy.DefaultStrategy">
+				<pattern value="[0-9]$" group="g1" />
+			</dbStrategy>
+			<map name="get_adminusr_by_email"
+				sqlitem="select id from lms_sys_user where login_email= ? "  sqlType="hsql"
+				keyProperty="id" valueProperty="id" />
+	</object>
+		
+	<object name="com.yswsoft.lms.core.model.Books"
+			listenerClass="" strategyProperty="id">
+			<dbStrategy name="" clasz="cc.luole.sns.dal.route.strategy.DefaultStrategy">
+				<pattern value="[0-9]$" group="g1" />
+			</dbStrategy>
+			
+			<map name="get_books_by_type"
+				sqlitem="select id from lms_sys_books where type= ? and status= ?"  sqlType="hsql"
+				keyProperty="id" valueProperty="id" />
+				
+			<list name="get_books_list"
+			sqlitem="select id from lms_sys_books where status= ?" sqlType="hsql"
+				keyProperty="id" valueProperty="id" />
+			
+			<list name="get_books_page"
+			sqlitem="select id from lms_sys_books where status= ?" sqlType="hsql"
+				keyProperty="id" valueProperty="id" />	
+			
+			<list name="get_books_page_by_parameter"
+			sqlitem="select id from lms_sys_books where status= ? " sqlType="hsql"
+				keyProperty="id" valueProperty="id" />					
+				
+				
+				
+	</object>
+		
+	</route>
+</dal>

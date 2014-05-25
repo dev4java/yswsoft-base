@@ -1,0 +1,8 @@
+@charset "utf-8";
+/*password_set*/
+.pswd-form{margin-top:7px;padding-left:20px;width:740px;height:170px;}
+.pswd-item{padding-bottom:10px;width:740px;height:30px;line-height:30px;}
+.pswd-item span{color:#333;float:left;text-align:right;}
+.pswd-item input{width:188px;float:left;}
+.pswd-item .msg,.personal-basicinfo .msg{height:30px;font-size:12px;float:left;}
+.personal-basicinfo .msg{margin-top:5px;}

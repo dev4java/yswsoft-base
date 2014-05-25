@@ -1,0 +1,80 @@
+/*admin index*/
+.login-tip{margin:0 0 10px;text-align:center;}
+.str_3column{margin:0 auto 10px;width:980px;}
+.str_3column_l{width:320px;background:#fff;box-shadow:1px 1px 5px #c0c8cf;float:left;}
+.str_3column_l h2,.str_3column_c h2,.str_3column_r h2{padding:0 20px;border-bottom:1px solid #ccc;font:normal 16px/40px "Microsoft YaHei";}
+.str_3column_l ul,.str_3column_c ul,.str_3column_r ul{margin:10px 0;}
+.str_3column_l ul li,.str_3column_c ul li,.str_3column_r ul li{padding:0 10px;height:30px;}
+.str_3column_l ul li a,.str_3column_c ul li a,.str_3column_r ul li a{margin-right:20px;float:left;}
+.str_3column_l ul li span.authority,.str_3column_c ul li span.authority,.str_3column_r ul li span.authority{margin-right:10px;color:#ff3333;float:left;}
+.str_3column_l ul li span.detail,.str_3column_c ul li span.detail,.str_3column_r ul li span.detail{width:170px;float:left;}
+.str_3column_c{margin:0 10px;width:320px;background:#f0f0f0;box-shadow:1px 1px 5px #c0c8cf;float:left;}
+.str_3column_r{width:320px;background:#e0e0e0;box-shadow:1px 1px 5px #c0c8cf;float:left;}
+
+/*admin password_set*/
+.pswd-form{margin-top:7px;padding-left:20px;width:740px;height:170px;}
+.pswd-item{padding-bottom:10px;width:740px;height:30px;line-height:30px;}
+.pswd-item span{color:#333;float:left;text-align:right;}
+.pswd-item input{width:188px;float:left;}
+.pswd-item .msg,.personal-basicinfo .msg{height:30px;font-size:12px;float:left;}
+.personal-basicinfo .msg{margin-top:5px;}
+
+/*新书入库*/
+.newbook-detail{padding:0 20px;float:left;}
+.newbook-detail h3{height:40px;background:url(../img/panel-b-bg.gif) repeat-x left bottom;color:#666;font:bold 14px/40px "SimSun";}
+.newbook-detail .newbook-item{margin:10px 0 0;width:360px;float:left;}
+.newbook-detail .newbook-item p{width:360px;}
+.newbook-item p span{float:left;text-align:right;font:14px/40px "SimSun";}
+.newbook-item p input{float:left;}
+ p.save1{margin-top:15px;height:36px;width:100%;float:left;text-align:center;}
+
+ /*增加读者*/
+.add-reader p span.type-select{width:207px;height:28px;border:1px solid #ccc;line-height:28px;}
+.add-reader p span.type-select select{padding:2px 4px 2px 10px;width:207px;border:none;text-align:center;}
+/*图书修改*/
+.book-list{padding:5px 10px;}
+.search-operate{padding:10px 0;height:30px;border-bottom:1px solid #ccc;font-family:"Microsoft Yahei";font-weight:normal;}
+.search-operate p{display:inline;}
+.search-operate p.detail-note{float:left;}
+.search-operate p.book-selcet{float:right;}
+.search-operate p span{margin-right:10px;height:30px;line-height:30px;float:left;color:#999;position:relative;}
+.search-operate p span.type-select{width:120px;border:1px solid #ccc;}
+.search-operate p span.type-select select{padding:2px 4px 2px 10px;width:120px;border:none;text-align:center;}
+.search-operate p span input.search-txt{padding:0 75px 0 5px;width:200px;height:30px;line-height:30px;border:1px solid #aebbcb;color:#666;}
+.search-operate p span input.search-btn{width:71px;height:30px;background:url(../img/search-btn.png) no-repeat 0 0;border:none;cursor:pointer;position:absolute;right:0;text-indent:-999em;}
+.book-list ul.book-all li{width:740px;float:left;}
+.book-list ul.book-all li.book-title{padding:10px 0;height:20px;font-weight:bold;background:url(../img/border-bg4.gif) repeat-x left bottom;}
+.book-list ul.book-all li span{float:left;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.book-all li span.state{width:60px;}
+.book-all li span.bookname{width:90px;}
+.book-all li span.title{width:200px;}
+.book-all li span.bookclass{width:65px;}
+.book-all li span.author{width:80px;}
+.book-all li span.publister{width:120px;}
+.book-all li span.exist{color:#f33;}
+.book-all li span.lend{color:#008000;}
+.book-all li span.oper-link{width:50px;}
+.book-list ul.book-all li.book-item{padding:15px 0;background:url(../img/panel-b-bg.gif) repeat-x left bottom;}
+.book-list ul.book-all li.book-item1{background:url(../img/panel-b-bg.gif) repeat-x left bottom #eefbf4;}
+.book-list ul.book-all li.book-item span{border-right:1px solid #ccc;}
+.book-list ul.book-all li.book-item span.last{border-right:none;}
+.book-list ul.book-all li.last{background:none;}
+#bkdetail-prot{margin-left: -210px;padding: 10px 0;width: 420px;}
+.propt-bkdetail {padding:5px 20px 20px;width:380px;height:289px;}
+.bkdetail-propt-msg{padding:0 0 17px 20px;width:400px;border-bottom:1px solid #ccc;}
+.propt-bkdetail ul li{float:left;}
+.propt-bkdetail ul li .bkdetail-input-tit{width:80px;height:30px;line-height:30px;float:left;text-align:left;}
+.propt-bkdetail ul li .bkdetail-input-txt{width:300px;float:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.bkdetail-input-txt .class-name{width:308px;height:28px;line-height:28px;border:1px solid #ccc;}
+.bkdetail-input-txt .class-desp{width:308px;height:98px;border:1px solid #ccc;overflow:auto;}
+.bkdetail-input-txt .show-local-pic{margin-top:5px;width:100%;display:block;}
+.propt-bkdetail-btn{padding:0 20px 0 0;width:200px;height:36px;float:right;}
+#bkrevise-prot{margin-left: -210px;padding: 10px 0;width: 760px;}
+.prot-bkrevise{padding:5px 20px 20px;width:720px;}
+.bkrevise-propt-msg{padding:0 0 17px 20px;width:740px;border-bottom:1px solid #ccc;}
+/*删除图书*/
+#remove-feeds{margin-left:-296px;padding:10px 0;width:498px;border:1px solid #ccc;}
+.remFeeds-propt-msg{padding:0 0 17px 20px;width:478px;border-bottom:1px solid #ccc;}
+
+
+
